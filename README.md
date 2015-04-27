@@ -10,7 +10,7 @@ Collections of URLs pointing to traffic information portals which contain open d
 * [Datex2 Portal](http://www.datex2.eu/datex-node/), See more information about the UK data [here](http://dalelane.co.uk/blog/?p=1450)
 * [Entire UK](http://www.dft.gov.uk/traffic-counts/) but traffic count only
 * [Historic Road data in EU](http://open-data.europa.eu/en/data/dataset/4t2lYOaJNRsEgDA37hrUgg)
-* [Netherlands](http://83.247.110.3/ndwOpenAVG/Default.aspx) via the NDW (Dutch governmental organisation). FTP-Server for data and measurements is ftp://83.247.110.3/ , see [#2](https://github.com/graphhopper/open-traffic-collection/issues/2)
+* [Netherlands](http://83.247.110.3/ndwOpenAVG/Default.aspx) via the NDW. FTP-Server for data and measurements is ftp://83.247.110.3/ , see [#2](https://github.com/graphhopper/open-traffic-collection/issues/2)
 
 ## USA
 

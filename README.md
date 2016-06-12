@@ -9,6 +9,7 @@ Collections of URLs pointing to traffic information portals which contain open d
 * [Hamburg, Germany](https://smartlane.io/dataset/different-geo-visualizations/resource/045d88a8-6a1e-4f41-b23c-fa5efa549d34) via [Geoportal Hamburg](http://suche.transparenz.hamburg.de/dataset/geo-online-portal-hamburg), [WFS Daten](http://geodienste-hamburg.de/HH_WFS_BWVI_opendata?REQUEST=GetCapabilities&SERVICE=WFSO)
 * [Entire DE](http://www.mcloud.de/mCLOUD/Daten/0003_Verkehrsdaten_automatische_Dauerzaehlstellen.html?linkToOverview=js) traffic count only
 * [Entire UK](http://www.dft.gov.uk/traffic-counts/) traffic count only
+* [Switzerland](http://www.astra.admin.ch/verkehrsdaten/) traffic count only
 * [Historic Road data in EU](http://open-data.europa.eu/en/data/dataset/4t2lYOaJNRsEgDA37hrUgg)
 * [Netherlands](http://83.247.110.3/ndwOpenAVG/Default.aspx) via the NDW. FTP-Server for data and measurements is ftp://83.247.110.3/ , see [#2](https://github.com/graphhopper/open-traffic-collection/issues/2)
 

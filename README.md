@@ -10,6 +10,7 @@ Collections of URLs pointing to traffic information portals which contain open d
 * [Entire DE](http://www.mcloud.de/mCLOUD/Daten/0003_Verkehrsdaten_automatische_Dauerzaehlstellen.html?linkToOverview=js) traffic count only
 * [Entire UK](http://www.dft.gov.uk/traffic-counts/) traffic count only
 * [Switzerland](http://www.astra.admin.ch/verkehrsdaten/) traffic count only
+* [France](https://www.quandl.com/data/INSEE) traffic count only
 * [Historic Road data in EU](http://open-data.europa.eu/en/data/dataset/4t2lYOaJNRsEgDA37hrUgg)
 * [Netherlands](http://83.247.110.3/ndwOpenAVG/Default.aspx) via the NDW. FTP-Server for data and measurements is ftp://83.247.110.3/ , see [#2](https://github.com/graphhopper/open-traffic-collection/issues/2)
 

@@ -17,11 +17,40 @@ Collections of URLs pointing to traffic information portals which contain open d
  
 Many EU data sets are available at the [European Data Portal](http://www.europeandataportal.eu/data/en/group/transport?q=traffic)
 
+## Australia
+
+ * [New South Wales](http://www.rms.nsw.gov.au/about/access-to-information/access-to-data.html) (looks unfree)
+
 ## USA
 
-* [Chicago](https://data.cityofchicago.org/browse?tags=traffic)
-* [NYC](https://data.cityofnewyork.us/Transportation/Real-Time-Traffic-Speed-Data/xsat-x5sa)
+Several entries are take from [this stackexchange answer](http://opendata.stackexchange.com/a/1772/12662)
+
+* [nationwide](http://www.fhwa.dot.gov/policyinformation/travel_monitoring/tvt.cfm)
+* [Arizona](http://www.azdot.gov/planning/DataandAnalysis)
+* [Arlington](http://www.arlingtonva.us/Departments/EnvironmentalServices/dot/traffic/counts/EnvironmentalServicesCounts.aspx)
+* [California](http://traffic-counts.dot.ca.gov/)
+* [Chicago](https://data.cityofchicago.org/browse?tags=traffic) or [one specific set](https://data.cityofchicago.org/Transportation/Average-Daily-Traffic-Counts/pfsx-4n4m)
+* [Colorado](http://dtdapps.coloradodot.info/otis)
+* [Delaware Valley](http://www.dvrpc.org/webmaps/trafficcounts/)
+* [Florida](http://www.dot.state.fl.us/planning/statistics/trafficdata/)
+* [Indiana](http://www.in.gov/indot/2720.htm)
+* [Maine](http://www.maine.gov/mdot/traffic/ytc/)
+* [Massachusetts](http://www.massdot.state.ma.us/highway/TrafficVolumeCounts.aspx)
+* [Michigan](http://www.michigan.gov/mdot/0,4616,7-151-9615---,00.html) (seems to be no longer available)
+* [Minnesota](http://www.dot.state.mn.us/traffic/data/)
+* [New York City](https://data.cityofnewyork.us/Transportation/Real-Time-Traffic-Speed-Data/xsat-x5sa) and [New York](https://www.dot.ny.gov/highway-data-services)
+* [North Carolina](http://www.ncdot.gov/projects/trafficsurvey/)
+* [Ohio](http://www.dot.state.oh.us/Divisions/Planning/TechServ/traffic/Pages/Traffic-Count-Reports-and-Maps.aspx)
+* [Oregon](http://www.oregon.gov/ODOT/td/tdata/Pages/tsm/tvt.aspx)
+* [South Carolina](http://www.scdot.org/getting/trafficcounts.aspx)
+* [Tennessee](http://www.tdot.state.tn.us/projectplanning/adt.asp) (seems to be no longer available)
+* [Washington](http://www.wsdot.wa.gov/mapsdata/travel/annualtrafficreport.htm)
+* [Wisconsin](http://wisconsindot.gov/Pages/projects/data-plan/traf-counts/default.aspx)
  
+## Canada
+
+* [British Columbia](http://www.th.gov.bc.ca/trafficData/)
+
 ## Selected
 
 * [OpenTraffic.io](http://opentraffic.io/)

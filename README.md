@@ -6,6 +6,7 @@ Collections of URLs pointing to traffic information portals which contain open d
 
 * [Bozen/Bolzano](http://traffic.bz.it/) documentation [here](http://ipchannels.integreen-life.bz.it/doc/), repo [here](https://github.com/tis-innovation-park/BZtraffic). See [#1](https://github.com/graphhopper/open-traffic-collection/pull/1)
 * [Cologne, Germany](http://www.offenedaten-koeln.de/dataset/verkehrskalender-der-stadt-k%C3%B6ln), CC BY 3.0, traffic flow. See this [blog post](https://karussell.wordpress.com/2015/04/08/visualize-and-handle-traffic-information-with-graphhopper-in-real-time-for-cologne-germany-koln/)
+* [Jena, Germany](https://opendata.jena.de/group/mobilitat)
 * [Darmstadt, Germany](https://darmstadt.ui-traffic.de/faces/TrafficData.xhtml)
 * [Hamburg, Germany](https://smartlane.io/dataset/different-geo-visualizations/resource/045d88a8-6a1e-4f41-b23c-fa5efa549d34) via [Geoportal Hamburg](http://suche.transparenz.hamburg.de/dataset/geo-online-portal-hamburg), [WFS Daten](http://geodienste-hamburg.de/HH_WFS_BWVI_opendata?REQUEST=GetCapabilities&SERVICE=WFSO)
 * [Entire DE](http://www.mcloud.de/mCLOUD/Daten/0003_Verkehrsdaten_automatische_Dauerzaehlstellen.html?linkToOverview=js) traffic count only

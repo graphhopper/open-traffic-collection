@@ -55,6 +55,7 @@ Several entries are take from [this stackexchange answer](http://opendata.stacke
 
 ## Selected
 
-* [OpenTraffic.io](http://opentraffic.io/)
+* [Open Traffic Data project](http://military-technologies.net/2017/01/08/open-traffic-data-to-revolutionize-transport/)
+* [OpenTraffic.io](http://opentraffic.io/) -> seems inactive
 * [MDM-Portal](http://www.mdm-portal.de/) (coverage will be Europe, free to use): Düsseldorf Germany, NRW Germany, ...
 * [Datex2 Portal](http://www.datex2.eu/datex-node/), See more information about the UK data [here](http://dalelane.co.uk/blog/?p=1450)

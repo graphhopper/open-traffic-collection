@@ -11,6 +11,7 @@ Collections of URLs pointing to traffic information portals which contain open d
 * [Hamburg, Germany](https://smartlane.io/dataset/different-geo-visualizations/resource/045d88a8-6a1e-4f41-b23c-fa5efa549d34) via [Geoportal Hamburg](http://suche.transparenz.hamburg.de/dataset/geo-online-portal-hamburg), [WFS Daten](http://geodienste-hamburg.de/HH_WFS_BWVI_opendata?REQUEST=GetCapabilities&SERVICE=WFSO)
 * [Entire DE](https://www.mcloud.de/web/guest/suche/-/results/detail/verkehrsdatenautomatischedauerzhlstellen) traffic count only
 * [Entire UK](http://www.dft.gov.uk/traffic-counts/) traffic count only, but [here](https://data.gov.uk/dataset/dft-eng-srn-routes-journey-times) seems to be some traffic flow data.
+* [Gothenbury, Sweden](http://www.statistik.tkgbg.se/)
 * [Switzerland](https://www.astra.admin.ch/astra/en/home/dokumentation/verkehrsdaten.html) traffic count only
 * [France](https://www.quandl.com/data/INSEE?keyword=traffic) traffic count only
 * [Historic Road data in EU](http://open-data.europa.eu/en/data/dataset/4t2lYOaJNRsEgDA37hrUgg)

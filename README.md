@@ -23,6 +23,7 @@ Many EU data sets are available at the [European Data Portal](http://www.europea
 ## Australia
 
  * [New South Wales](http://www.rms.nsw.gov.au/about/access-to-information/access-to-data.html) (looks unfree)
+ * [Victoria](http://api.vicroads.vic.gov.au/)
 
 ## USA
 

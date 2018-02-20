@@ -15,8 +15,9 @@ Collections of URLs pointing to traffic information portals which contain open d
 * [Entire UK](http://www.dft.gov.uk/traffic-counts/) traffic count only, but [here](https://data.gov.uk/dataset/dft-eng-srn-routes-journey-times) seems to be some traffic flow data.
 * [Gothenbury, Sweden](http://www.statistik.tkgbg.se/)
 * [Switzerland](https://www.astra.admin.ch/astra/en/home/dokumentation/verkehrsdaten.html) traffic count only
-* [France](https://www.quandl.com/data/INSEE?keyword=traffic) traffic count only
+* [France](https://www.quandl.com/data/INSEE?keyword=traffic) traffic count onl
 * [Historic Road data in EU](http://open-data.europa.eu/en/data/dataset/4t2lYOaJNRsEgDA37hrUgg)
+* [Lithuania](http://lakd.lrv.lt/lt/atviri-duomenys) traffic count only
 * [Netherlands](http://83.247.110.3/ndwOpenAVG/Default.aspx) via the NDW. FTP-Server for data and measurements is ftp://83.247.110.3/ , see [#2](https://github.com/graphhopper/open-traffic-collection/issues/2)
  * [Lithuania](http://lakd.lrv.lt/lt/atviri-duomenys) traffic count only 
   

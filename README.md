@@ -32,6 +32,7 @@ Many EU data sets are available at the [European Data Portal](http://www.europea
 Several entries are take from [this stackexchange answer](http://opendata.stackexchange.com/a/1772/12662)
 
 * [nationwide](http://www.fhwa.dot.gov/policyinformation/travel_monitoring/tvt.cfm)
+* [Alabama](https://www.dot.state.al.us/maweb/trafficMonitoring/trafficMonitoring.html)
 * [Arizona](http://www.azdot.gov/planning/DataandAnalysis)
 * [Arlington](http://www.arlingtonva.us/Departments/EnvironmentalServices/dot/traffic/counts/EnvironmentalServicesCounts.aspx)
 * [California](http://traffic-counts.dot.ca.gov/)

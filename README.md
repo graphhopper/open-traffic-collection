@@ -9,7 +9,7 @@ Collections of URLs pointing to traffic information portals which contain open d
 * [Cologne, Germany](http://www.offenedaten-koeln.de/dataset/verkehrskalender-der-stadt-k%C3%B6ln), CC BY 3.0, traffic flow. See this [blog post](https://www.graphhopper.com/blog/2015/04/08/visualize-and-handle-traffic-information-with-graphhopper-in-real-time-for-cologne-germany-koln/)
 * [Jena, Germany](https://opendata.jena.de/group/mobilitat)
 * [Darmstadt, Germany](https://darmstadt.ui-traffic.de/faces/TrafficData.xhtml)
-* [Hamburg, Germany](http://suche.transparenz.hamburg.de/dataset/geo-online-portal-hamburg), [WFS Daten](http://geodienste-hamburg.de/HH_WFS_BWVI_opendata?REQUEST=GetCapabilities&SERVICE=WFSO)
+* [Hamburg, Germany](http://suche.transparenz.hamburg.de/dataset/geo-online-portal-hamburg), [WFS Daten](https://geodienste.hamburg.de/HH_WFS_Verkehr_opendata?REQUEST=GetCapabilities&SERVICE=WFS)
 * [Nordrhein-Westfalen, DE](https://open.nrw/dataset/verkehrszentrale-verkehrsinformationen-der-viz-nrw-fuer-nordrhein-westfalen-1476687235163) and [other data](https://open.nrw/dataset/verkehrszentrale-verkehrslage-los-1476688071631).
 * [Entire DE](https://www.mcloud.de/web/guest/suche/-/results/detail/verkehrsdatenautomatischedauerzhlstellen) traffic count only
 * [Entire UK](http://www.dft.gov.uk/traffic-counts/) traffic count only, but [here](https://data.gov.uk/dataset/dft-eng-srn-routes-journey-times) seems to be some traffic flow data.

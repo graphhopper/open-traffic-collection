@@ -20,6 +20,7 @@ Collections of URLs pointing to traffic information portals which contain open d
 * [Historic Road data in EU](http://open-data.europa.eu/en/data/dataset/4t2lYOaJNRsEgDA37hrUgg)
 * [Netherlands](http://83.247.110.3/ndwOpenAVG/Default.aspx) via the NDW. FTP-Server for data and measurements is ftp://83.247.110.3/ , see [#2](https://github.com/graphhopper/open-traffic-collection/issues/2)
  * [Lithuania](http://lakd.lrv.lt/lt/atviri-duomenys) traffic count only 
+ * [Belgium](http://opendatastore.brussels/en/dataset/traffic-count) Real-time traffic counting in the Brussels Region.
   
 Many EU data sets are available at the [European Data Portal](http://www.europeandataportal.eu/data/en/group/transport?q=traffic)
 

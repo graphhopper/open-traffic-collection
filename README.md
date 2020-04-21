@@ -19,7 +19,10 @@ Collections of URLs pointing to traffic information portals which contain open d
 * [France](https://www.quandl.com/data/INSEE?keyword=traffic) traffic count only
 * [Historic Road data in EU](http://open-data.europa.eu/en/data/dataset/4t2lYOaJNRsEgDA37hrUgg)
 * [Netherlands](http://83.247.110.3/ndwOpenAVG/Default.aspx) via the NDW. FTP-Server for data and measurements is ftp://83.247.110.3/ , see [#2](https://github.com/graphhopper/open-traffic-collection/issues/2)
- * [Lithuania](http://lakd.lrv.lt/lt/atviri-duomenys) traffic count only 
+ * Lithuania:
+   * [traffic count](http://lakd.lrv.lt/lt/atviri-duomenys)
+   * [restrictions](http://restrictions.eismoinfo.lt/): Roadworks, road closures and restrictions, incidents; JSON-based format similar to Waze CIFS. More information at http://eismoinfo.lt > Open data/Atviri duomenys.
+   * [intensity](https://old.eismoinfo.lt/traffic-intensity-service): Real-time traffic flow data. More information at http://eismoinfo.lt > Open data/Atviri duomenys (note that the URL has changed since). Note that coordinates for road segments are in LKS94 (EPSG:3346).
  * [Belgium](http://opendatastore.brussels/en/dataset/traffic-count) Real-time traffic counting in the Brussels Region.
   
 Many EU data sets are available at the [European Data Portal](http://www.europeandataportal.eu/data/en/group/transport?q=traffic)

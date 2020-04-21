@@ -40,6 +40,10 @@ Collections of URLs pointing to traffic information portals which contain open d
 * [Austria](https://services2.asfinag.at/web/trafficdata/documents): Various data sets in Datex-II format. Requires registration; some packages are free of charge, others only for a fee.
 * [Czechia](http://registr.dopravniinfo.cz/en/): Feeds for common traffic information, restrictions and weather. Available in both Datex-II and a custom format called DDR XML. Requires registration (free of charge) and running a server, to which the service will then push updates as they occur.
 * [Estonia](https://tarktee.mnt.ee/#/en/datex): road safety, traffic restrictions and real time traffic flow in Datex-II format. Location referencing seems to rely mainly on distance markers (on which data on OSM is scarce); WGS84 is used for single-point locations only; Alert-C is not used. Requires registration, free of charge.
+* Finland:
+  * [Digitraffic](https://www.digitraffic.fi/en/road-traffic/) has several data sets, some in a custom JSON format, others in Datex-II level C
+  * Roadworks in [Datex-II](https://aineistot.vayla.fi/roadworks/roadworks_d2.xml) and [InfoXML](https://aineistot.vayla.fi/roadworks/roadworks_infoxml.xml) format. The Datex-II set relies on Alert-C for location referencing.
+  * [Weight restrictions](https://aineistot.vayla.fi/painorajoitukset/painorajoitukset_d2.xml) in Datex-II, relies on Alert-C for location referencing.
   
 Many EU data sets are available at the [European Data Portal](http://www.europeandataportal.eu/data/en/group/transport?q=traffic)
 

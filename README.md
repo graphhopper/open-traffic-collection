@@ -6,13 +6,30 @@ Collections of URLs pointing to traffic information portals which contain open d
 
 * [Bolzano, Italy](http://traffic.bz.it/) documentation [here](http://ipchannels.integreen-life.bz.it/doc/), repo [here](https://github.com/tis-innovation-park/BZtraffic). See [#1](https://github.com/graphhopper/open-traffic-collection/pull/1)
 * [Turin, Italy](http://opendata.5t.torino.it/get_fdt) documentation [here](http://www.5t.torino.it/wp-content/uploads/2016/04/flussi_traffico_rt.pdf). See [#13](https://github.com/graphhopper/open-traffic-collection/issues/13)
-* [Cologne, Germany](http://www.offenedaten-koeln.de/dataset/verkehrskalender-der-stadt-k%C3%B6ln), CC BY 3.0, traffic flow. See this [blog post](https://www.graphhopper.com/blog/2015/04/08/visualize-and-handle-traffic-information-with-graphhopper-in-real-time-for-cologne-germany-koln/)
-* [Jena, Germany](https://opendata.jena.de/group/mobilitat)
-* [Darmstadt, Germany](https://darmstadt.ui-traffic.de/faces/TrafficData.xhtml)
-* [Hamburg, Germany](http://suche.transparenz.hamburg.de/dataset/geo-online-portal-hamburg), [WFS Daten](https://geodienste.hamburg.de/HH_WFS_Verkehr_opendata?REQUEST=GetCapabilities&SERVICE=WFS)
-* [Nordrhein-Westfalen, DE](https://open.nrw/dataset/verkehrszentrale-verkehrsinformationen-der-viz-nrw-fuer-nordrhein-westfalen-1476687235163) and [other data](https://open.nrw/dataset/verkehrszentrale-verkehrslage-los-1476688071631).
-* [Entire DE (broken)](https://www.mcloud.de/web/guest/suche/-/results/detail/verkehrsdatenautomatischedauerzhlstellen) traffic count only
-* [Entire DE BASt](https://www.bast.de/BASt_2017/DE/Verkehrstechnik/Fachthemen/v2-verkehrszaehlung/Daten/2017_1/Jawe2017.html?nn=1819490) traffic count only
+* Germany:
+  * [Cologne, Germany](http://www.offenedaten-koeln.de/dataset/verkehrskalender-der-stadt-k%C3%B6ln), CC BY 3.0, traffic flow. See this [blog post](https://www.graphhopper.com/blog/2015/04/08/visualize-and-handle-traffic-information-with-graphhopper-in-real-time-for-cologne-germany-koln/)
+  * [Jena](https://opendata.jena.de/group/mobilitat)
+  * [Darmstadt](https://darmstadt.ui-traffic.de/faces/TrafficData.xhtml)
+  * [Hamburg](http://suche.transparenz.hamburg.de/dataset/geo-online-portal-hamburg), [WFS Daten](https://geodienste.hamburg.de/HH_WFS_Verkehr_opendata?REQUEST=GetCapabilities&SERVICE=WFS)
+  * [Nordrhein-Westfalen](https://open.nrw/dataset/verkehrszentrale-verkehrsinformationen-der-viz-nrw-fuer-nordrhein-westfalen-1476687235163) and [other data](https://open.nrw/dataset/verkehrszentrale-verkehrslage-los-1476688071631), both in Datex-II format.
+  * [Entire DE (broken)](https://www.mcloud.de/web/guest/suche/-/results/detail/verkehrsdatenautomatischedauerzhlstellen) traffic count only
+  * [Entire DE BASt](https://www.bast.de/BASt_2017/DE/Verkehrstechnik/Fachthemen/v2-verkehrszaehlung/Daten/2017_1/Jawe2017.html?nn=1819490) traffic count only
+  * Long-term roadworks on motorways in Datex-II format, some data sets also cover other national roads:
+    * [Brandenburg](http://data-run.info/BASt-MDM-Interface/srv/2873004/clientPullService?subscriptionID=2873004)
+    * [Baden-Württemberg](http://data-run.info/BASt-MDM-Interface/srv/2873002/clientPullService?subscriptionID=2873002)
+    * [Bayern](http://data-run.info/BASt-MDM-Interface/srv/2873003/clientPullService?subscriptionID=2873003)
+    * Bremen: [this](http://data-run.info/BASt-MDM-Interface/srv/2875000/clientPullService?subscriptionID=2875000) and [this](http://data-run.info/BASt-MDM-Interface/srv/2875001/clientPullService?subscriptionID=2875001) (these seem to be two distinct data sets)
+    * Hessen: [Long-term](http://data-run.info/BASt-MDM-Interface/srv/2873006/clientPullService?subscriptionID=2873006) and [short-term](http://data-run.info/BASt-MDM-Interface/srv/2867001/clientPullService?subscriptionID=2867001) roadworks
+    * [Hamburg](http://data-run.info/BASt-MDM-Interface/srv/2873005/clientPullService?subscriptionID=2873005)
+    * [Mecklenburg-Vorpommern](http://data-run.info/BASt-MDM-Interface/srv/2874000/clientPullService?subscriptionID=2874000)
+    * [Schleswig-Holstein](http://datarun2018.de/BASt-MDM-Interface/srv/2877000/clientPullService?subscriptionID=2877000)
+    * [Saarland](http://data-run.info/BASt-MDM-Interface/srv/2876000/clientPullService?subscriptionID=2876000)
+    * [Sachsen](http://data-run.info/BASt-MDM-Interface/srv/2874002/clientPullService?subscriptionID=2874002)
+    * [Sachsen-Anhalt](http://data-run.info/BASt-MDM-Interface/srv/2874003/clientPullService?subscriptionID=2874003)
+    * [Thüringen](http://data-run.info/BASt-MDM-Interface/srv/2874004/clientPullService?subscriptionID=2874004)
+  * [Frankfurt (Main)](http://data-run.info/BASt-MDM-Interface/srv/2866000/clientPullService?subscriptionID=2866000) traffic situation in Datex-II format
+  
+  Most of the Datex-II sets rely on Alert-C for location coding and requires the current LCL for Germany, which can be obtained free of charge but does not permit redistribution of the tables themselves. Many data sets indicate an incorrect location table number (LTN) but location codes will decode correctly when overriding the LTN indicated in the Datex-II stream.
 * [Entire UK](http://www.dft.gov.uk/traffic-counts/) traffic count only, but [here](https://data.gov.uk/dataset/dft-eng-srn-routes-journey-times) seems to be some traffic flow data.
 * [Gothenbury, Sweden](http://www.statistik.tkgbg.se/)
 * [Switzerland](https://www.astra.admin.ch/astra/en/home/dokumentation/verkehrsdaten.html) traffic count only

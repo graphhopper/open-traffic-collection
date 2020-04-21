@@ -35,7 +35,7 @@ Collections of URLs pointing to traffic information portals which contain open d
   * `wegwerkzaamheden`: roadworks and event-related traffic measures
   * There are also various measured data publications, indicating traffic flow, speed, travel times and queues.
   
-  The Datex-II situation reports rely heavily on Alert-C for location encoding. However, they do not use the regular Alert-C location code list for the Netherlands, but the [VILD](https://docs.ndw.nu/en/sb/algemeen/specialisatie/VILD.html), which has incompatible lcoation codes. It can be downloaded from https://www.ndw.nu/documenten/nl/#cat_2.
+  The Datex-II situation reports rely heavily on Alert-C for location encoding. However, they do not use the regular Alert-C location code list for the Netherlands, but the [VILD](https://docs.ndw.nu/en/sb/algemeen/specialisatie/VILD.html), which has incompatible lcoation codes. It can be downloaded from https://www.ndw.nu/documenten/nl/#cat_2. A semi-automatic process to convert the VILD to a Location Table Exchange Format, as understood by Alert-C toolchains, is described [here](https://gitlab.com/traffxml/vild2ltef).
  * Lithuania:
    * [traffic count](http://lakd.lrv.lt/lt/atviri-duomenys)
    * [restrictions](http://restrictions.eismoinfo.lt/): Roadworks, road closures and restrictions, incidents; JSON-based format similar to Waze CIFS. More information at http://eismoinfo.lt > Open data/Atviri duomenys.
@@ -59,6 +59,11 @@ Collections of URLs pointing to traffic information portals which contain open d
 * [Catalonia](http://www.gencat.cat/transit/opendata/incidenciesGML.xml): traffic events, custom XML format.
   
 Many EU data sets are available at the [European Data Portal](http://www.europeandataportal.eu/data/en/group/transport?q=traffic)
+
+EU authorities rely heavily on the Datex-II format for data exchange. Many of these data sets use Alert-C for location referencing and require a location code list (LCL) for location lookup.
+* In most cases the LCL can be obtained free of charge (at least for the countries which rely on Alert-C in their Datex-II feeds) and can be incorporated in applications, devices and information services, but some impose restrictions on redistribution of the raw tables. The [OSM Wiki](https://wiki.openstreetmap.org/wiki/TMC#Available_datasets) has a list of sources where LCLs can be obtained.
+* A FOSS Java library for location decoding is available here: [traff-libalertclocation](https://gitlab.com/traffxml/traff-libalertclocation) Decoding an Alert-C location requires the country code, location table number (LTN) and location code.
+* Some sources supply an incorrect LTN; ignore the `alertCLocationTableNumber` elements in the data and use the correct one instead. (The only exception being the Netherlands, see above.)
 
 ## Australia
 

@@ -31,7 +31,9 @@ Collections of URLs pointing to traffic information portals which contain open d
    * [traffic count](http://lakd.lrv.lt/lt/atviri-duomenys)
    * [restrictions](http://restrictions.eismoinfo.lt/): Roadworks, road closures and restrictions, incidents; JSON-based format similar to Waze CIFS. More information at http://eismoinfo.lt > Open data/Atviri duomenys.
    * [intensity](https://old.eismoinfo.lt/traffic-intensity-service): Real-time traffic flow data. More information at http://eismoinfo.lt > Open data/Atviri duomenys (note that the URL has changed since). Note that coordinates for road segments are in LKS94 (EPSG:3346).
- * [Belgium](http://opendatastore.brussels/en/dataset/traffic-count) Real-time traffic counting in the Brussels Region.
+* Belgium:
+  * [Brussels Region](http://opendatastore.brussels/en/dataset/traffic-count): real-time traffic counting
+  * [Roadworks](http://www.verkeerscentrum.be/uitwisseling/datex2full) in Datex-II format. Relies on Alert-C for location decoding; ignore the `alertCLocationTableNumber` indicated in the Datex-II stream and use the default table for Belgium.
 * Poland:
   * [Traffic events](https://www.gddkia.gov.pl/dane/zima_html/utrdane.xml) in a custom XML format. Georeferencing is based on distance markers along the road; the WGS84 coordinate pair which accompanies the message is only suitable for display and can be significantly off. [traff-gddkia](https://gitlab.com/traffxml/traff-gddkia) is an attempt at a FOSS Java library which parses the data.
   * The [NAP](https://kpd.gddkia.gov.pl/) has Datex-II traffic data; registration is required to get access.

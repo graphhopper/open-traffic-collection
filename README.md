@@ -35,6 +35,7 @@ Collections of URLs pointing to traffic information portals which contain open d
 * Poland:
   * [Traffic events](https://www.gddkia.gov.pl/dane/zima_html/utrdane.xml) in a custom XML format. Georeferencing is based on distance markers along the road; the WGS84 coordinate pair which accompanies the message is only suitable for display and can be significantly off. [traff-gddkia](https://gitlab.com/traffxml/traff-gddkia) is an attempt at a FOSS Java library which parses the data.
   * The [NAP](https://kpd.gddkia.gov.pl/) has Datex-II traffic data; registration is required to get access.
+* [Austria](https://services2.asfinag.at/web/trafficdata/documents): Various data sets in Datex-II format. Requires registration; some packages are free of charge, others only for a fee.
   
 Many EU data sets are available at the [European Data Portal](http://www.europeandataportal.eu/data/en/group/transport?q=traffic)
 

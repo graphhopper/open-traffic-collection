@@ -18,7 +18,15 @@ Collections of URLs pointing to traffic information portals which contain open d
 * [Switzerland](https://www.astra.admin.ch/astra/en/home/dokumentation/verkehrsdaten.html) traffic count only
 * [France](https://www.quandl.com/data/INSEE?keyword=traffic) traffic count only
 * [Historic Road data in EU](http://open-data.europa.eu/en/data/dataset/4t2lYOaJNRsEgDA37hrUgg)
-* [Netherlands](http://83.247.110.3/ndwOpenAVG/Default.aspx) via the NDW. FTP-Server for data and measurements is ftp://83.247.110.3/ , see [#2](https://github.com/graphhopper/open-traffic-collection/issues/2)
+* [Netherlands](http://83.247.110.3/ndwOpenAVG/Default.aspx) via the NDW. FTP-Server for data and measurements is ftp://83.247.110.3/ , see [#2](https://github.com/graphhopper/open-traffic-collection/issues/2). Feeds are also available at http://opendata.ndw.nu/. Specifically:
+  * `brugopeningen` has time tables for movable bridges, indicating when they are opened (i.e. raised) and thus impassable for road traffic
+  * `gebeurtenisinfo`: traffic messages, e.g. traffic jams, wrong-way drivers, closures, detours and weather conditions
+  * `incidents`: Breakdowns and accidents
+  * `srti` has safety-related traffic information
+  * `wegwerkzaamheden`: roadworks and event-related traffic measures
+  * There are also various measured data publications, indicating traffic flow, speed, travel times and queues.
+  
+  The Datex-II situation reports rely heavily on Alert-C for location encoding. However, they do not use the regular Alert-C location code list for the Netherlands, but the [VILD](https://docs.ndw.nu/en/sb/algemeen/specialisatie/VILD.html), which has incompatible lcoation codes. It can be downloaded from https://www.ndw.nu/documenten/nl/#cat_2.
  * Lithuania:
    * [traffic count](http://lakd.lrv.lt/lt/atviri-duomenys)
    * [restrictions](http://restrictions.eismoinfo.lt/): Roadworks, road closures and restrictions, incidents; JSON-based format similar to Waze CIFS. More information at http://eismoinfo.lt > Open data/Atviri duomenys.

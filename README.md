@@ -46,6 +46,7 @@ Collections of URLs pointing to traffic information portals which contain open d
   * [Digitraffic](https://www.digitraffic.fi/en/road-traffic/) has several data sets, some in a custom JSON format, others in Datex-II level C
   * Roadworks in [Datex-II](https://aineistot.vayla.fi/roadworks/roadworks_d2.xml) and [InfoXML](https://aineistot.vayla.fi/roadworks/roadworks_infoxml.xml) format. The Datex-II set relies on Alert-C for location referencing.
   * [Weight restrictions](https://aineistot.vayla.fi/painorajoitukset/painorajoitukset_d2.xml) in Datex-II, relies on Alert-C for location referencing.
+* [Luxembourg](http://www.cita.lu/info_trafic/datex/situationrecord): Traffic events in Datex-II format. Relies on Alert-C for location referencing.
   
 Many EU data sets are available at the [European Data Portal](http://www.europeandataportal.eu/data/en/group/transport?q=traffic)
 

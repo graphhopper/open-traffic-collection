@@ -56,6 +56,7 @@ Collections of URLs pointing to traffic information portals which contain open d
 * [Luxembourg](http://www.cita.lu/info_trafic/datex/situationrecord): Traffic events in Datex-II format. Relies on Alert-C for location referencing.
 * [Norway](https://www.vegvesen.no/om+statens+vegvesen/om+organisasjonen/apne-data/Datex/publikasjoner): Various data sets in Datex-II format, requires registration. Relies on Alert-C for location referencing, the LCL can be downloaded from the site.
 * [Slovenia](https://www.promet.si/portal/en/etd.aspx): various data sets in Datex-II format, requires registration.
+* [Catalonia](http://www.gencat.cat/transit/opendata/incidenciesGML.xml): traffic events, custom XML format.
   
 Many EU data sets are available at the [European Data Portal](http://www.europeandataportal.eu/data/en/group/transport?q=traffic)
 

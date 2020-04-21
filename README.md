@@ -16,7 +16,9 @@ Collections of URLs pointing to traffic information portals which contain open d
 * [Entire UK](http://www.dft.gov.uk/traffic-counts/) traffic count only, but [here](https://data.gov.uk/dataset/dft-eng-srn-routes-journey-times) seems to be some traffic flow data.
 * [Gothenbury, Sweden](http://www.statistik.tkgbg.se/)
 * [Switzerland](https://www.astra.admin.ch/astra/en/home/dokumentation/verkehrsdaten.html) traffic count only
-* [France](https://www.quandl.com/data/INSEE?keyword=traffic) traffic count only
+* France
+  * [Traffic count](https://www.quandl.com/data/INSEE?keyword=traffic)
+  * [Datex-II event data](http://diffusion-numerique.info-routiere.gouv.fr/acces-aux-donnees-evenementielles-datex-2-r13.html), requires registration
 * [Historic Road data in EU](http://open-data.europa.eu/en/data/dataset/4t2lYOaJNRsEgDA37hrUgg)
 * [Netherlands](http://83.247.110.3/ndwOpenAVG/Default.aspx) via the NDW. FTP-Server for data and measurements is ftp://83.247.110.3/ , see [#2](https://github.com/graphhopper/open-traffic-collection/issues/2). Feeds are also available at http://opendata.ndw.nu/. Specifically:
   * `brugopeningen` has time tables for movable bridges, indicating when they are opened (i.e. raised) and thus impassable for road traffic

@@ -8,13 +8,14 @@ Collections of URLs pointing to traffic information portals which contain open d
   * [Bolzano](http://traffic.bz.it/) documentation [here](http://ipchannels.integreen-life.bz.it/doc/), repo [here](https://github.com/tis-innovation-park/BZtraffic). See [#1](https://github.com/graphhopper/open-traffic-collection/pull/1)
   * South Tyrol: [traffic reports](https://www.europeandataportal.eu/data/#/datasets/p_bz-webservices-southtyrolean-trafficreport-currentsituation), [mountain pass conditions and closures](https://www.europeandataportal.eu/data/#/datasets/p_bz-webservices-southtyrolean-trafficreport-mountainroadsandpasses), [roadworks and closures](https://www.europeandataportal.eu/data/#/datasets/p_bz-webservices-southtyrolean-trafficreport-works-closings). They also advertise [reports from neighboring regions](https://www.europeandataportal.eu/data/#/datasets/p_bz-webservices-southtyrolean-trafficreport-outofprovince) but the feed seems to be empty. Available custom GML, JSON or CSV formats.
   * [Turin, Italy](http://opendata.5t.torino.it/get_fdt) documentation [here](http://www.5t.torino.it/wp-content/uploads/2016/04/flussi_traffico_rt.pdf). See [#13](https://github.com/graphhopper/open-traffic-collection/issues/13)
-* [Cologne, Germany](http://www.offenedaten-koeln.de/dataset/verkehrskalender-der-stadt-k%C3%B6ln), CC BY 3.0, traffic flow. See this [blog post](https://www.graphhopper.com/blog/2015/04/08/visualize-and-handle-traffic-information-with-graphhopper-in-real-time-for-cologne-germany-koln/)
-* [Jena, Germany](https://opendata.jena.de/group/mobilitat)
-* [Darmstadt, Germany](https://darmstadt.ui-traffic.de/faces/TrafficData.xhtml)
-* [Hamburg, Germany](http://suche.transparenz.hamburg.de/dataset/geo-online-portal-hamburg), [WFS Daten](https://geodienste.hamburg.de/HH_WFS_Verkehr_opendata?REQUEST=GetCapabilities&SERVICE=WFS)
-* [Nordrhein-Westfalen, DE](https://open.nrw/dataset/verkehrszentrale-verkehrsinformationen-der-viz-nrw-fuer-nordrhein-westfalen-1476687235163) and [other data](https://open.nrw/dataset/verkehrszentrale-verkehrslage-los-1476688071631).
-* [Entire DE (broken)](https://www.mcloud.de/web/guest/suche/-/results/detail/verkehrsdatenautomatischedauerzhlstellen) traffic count only
-* [Entire DE BASt](https://www.bast.de/BASt_2017/DE/Verkehrstechnik/Fachthemen/v2-verkehrszaehlung/Daten/2017_1/Jawe2017.html?nn=1819490) traffic count only
+* Germany:
+  * [Cologne](http://www.offenedaten-koeln.de/dataset/verkehrskalender-der-stadt-k%C3%B6ln), CC BY 3.0, traffic flow. See this [blog post](https://www.graphhopper.com/blog/2015/04/08/visualize-and-handle-traffic-information-with-graphhopper-in-real-time-for-cologne-germany-koln/)
+  * [Jena](https://opendata.jena.de/group/mobilitat)
+  * [Darmstadt](https://darmstadt.ui-traffic.de/faces/TrafficData.xhtml)
+  * [Hamburg](http://suche.transparenz.hamburg.de/dataset/geo-online-portal-hamburg), [WFS Daten](https://geodienste.hamburg.de/HH_WFS_Verkehr_opendata?REQUEST=GetCapabilities&SERVICE=WFS)
+  * [Nordrhein-Westfalen, DE](https://open.nrw/dataset/verkehrszentrale-verkehrsinformationen-der-viz-nrw-fuer-nordrhein-westfalen-1476687235163) and [other data](https://open.nrw/dataset/verkehrszentrale-verkehrslage-los-1476688071631).
+  * [Entire DE (broken)](https://www.mcloud.de/web/guest/suche/-/results/detail/verkehrsdatenautomatischedauerzhlstellen) traffic count only
+  * [Entire DE BASt](https://www.bast.de/BASt_2017/DE/Verkehrstechnik/Fachthemen/v2-verkehrszaehlung/Daten/2017_1/Jawe2017.html?nn=1819490) traffic count only
 * UK:
   * [Entire UK](http://www.dft.gov.uk/traffic-counts/) traffic count only
   * [Here](https://data.gov.uk/dataset/dft-eng-srn-routes-journey-times) seems to be some traffic flow data.
@@ -57,10 +58,12 @@ Collections of URLs pointing to traffic information portals which contain open d
 * [Norway](https://www.vegvesen.no/om+statens+vegvesen/om+organisasjonen/apne-data/Datex/publikasjoner): Various data sets in Datex-II format, requires registration. Relies on Alert-C for location referencing, the LCL can be downloaded from the site.
 * [Slovenia](https://www.promet.si/portal/en/etd.aspx): various data sets in Datex-II format, requires registration.
 * [Catalonia](http://www.gencat.cat/transit/opendata/incidenciesGML.xml): traffic events, custom XML format.
-  
-Many EU data sets are available at the [European Data Portal](http://www.europeandataportal.eu/data/en/group/transport?q=traffic)
 
-EU authorities rely heavily on the Datex-II format for data exchange. Many of these data sets use Alert-C for location referencing and require a location code list (LCL) for location lookup.
+## Europe Misc
+
+* traffic data set of several cities https://github.com/ambuehll/UTD19/ under CC BY-NC-SA 4.0
+* Many EU data sets are available at the [European Data Portal](http://www.europeandataportal.eu/data/en/group/transport?q=traffic)
+* EU authorities rely heavily on the Datex-II format for data exchange. Many of these data sets use Alert-C for location referencing and require a location code list (LCL) for location lookup.
 * In most cases the LCL can be obtained free of charge (at least for the countries which rely on Alert-C in their Datex-II feeds) and can be incorporated in applications, devices and information services, but some impose restrictions on redistribution of the raw tables. The [OSM Wiki](https://wiki.openstreetmap.org/wiki/TMC#Available_datasets) has a list of sources where LCLs can be obtained.
 * A FOSS Java library for location decoding is available here: [traff-libalertclocation](https://gitlab.com/traffxml/traff-libalertclocation) Decoding an Alert-C location requires the country code, location table number (LTN) and location code.
 * Some sources supply an incorrect LTN; ignore the `alertCLocationTableNumber` elements in the data and use the correct one instead. (The only exception being the Netherlands, see above.)

@@ -16,7 +16,7 @@ Collections of URLs pointing to traffic information portals which contain open d
   * [Nordrhein-Westfalen, DE](https://open.nrw/dataset/verkehrszentrale-verkehrsinformationen-der-viz-nrw-fuer-nordrhein-westfalen-1476687235163) and [other data](https://open.nrw/dataset/verkehrszentrale-verkehrslage-los-1476688071631).
   * [Entire DE (broken)](https://www.mcloud.de/web/guest/suche/-/results/detail/verkehrsdatenautomatischedauerzhlstellen) traffic count only
   * [Entire DE BASt](https://www.bast.de/BASt_2017/DE/Verkehrstechnik/Fachthemen/v2-verkehrszaehlung/Daten/2017_1/Jawe2017.html?nn=1819490) traffic count only
-  * [Entire DE](https://autobahn.api.bund.dev/) - inofficial API to get construction and traffic information
+  * [Entire DE](https://autobahn.api.bund.dev/) - inofficial API to get construction and traffic information on motorways
 * UK:
   * [Entire UK](http://www.dft.gov.uk/traffic-counts/) traffic count only
   * [Here](https://data.gov.uk/dataset/dft-eng-srn-routes-journey-times) seems to be some traffic flow data.

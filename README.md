@@ -49,7 +49,7 @@ Collections of URLs pointing to traffic information portals which contain open d
 * Poland:
   * [Traffic events](https://www.gddkia.gov.pl/dane/zima_html/utrdane.xml) in a custom XML format. Georeferencing is based on distance markers along the road; the WGS84 coordinate pair which accompanies the message is only suitable for display and can be significantly off. [traff-gddkia](https://gitlab.com/traffxml/traff-gddkia) is an attempt at a FOSS Java library which parses the data.
   * The [NAP](https://kpd.gddkia.gov.pl/) has Datex-II traffic data; registration is required to get access.
-* [Austria](https://services2.asfinag.at/web/trafficdata/documents): Various data sets in Datex-II format. Requires registration; some packages are free of charge, others only for a fee.
+* [Austria](https://contentportal.asfinag.at/data): Various data sets in Datex-II format. Requires registration; some packages are free of charge, others only for a fee. There is also [an open rss feed](https://publiccontent.asfinag.at/rss/feed/de/trafficmessages). See [#25](https://github.com/graphhopper/open-traffic-collection/issues/25).
 * [Czechia](http://registr.dopravniinfo.cz/en/): Feeds for common traffic information, restrictions and weather. Available in both Datex-II and a custom format called DDR XML. Requires registration (free of charge) and running a server, to which the service will then push updates as they occur.
 * [Estonia](https://tarktee.mnt.ee/#/en/datex): road safety, traffic restrictions and real time traffic flow in Datex-II format. Location referencing seems to rely mainly on distance markers (on which data on OSM is scarce); WGS84 is used for single-point locations only; Alert-C is not used. Requires registration, free of charge.
 * Finland:

@@ -82,7 +82,7 @@ Several entries are take from [this stackexchange answer](http://opendata.stacke
 * [nationwide](http://www.fhwa.dot.gov/policyinformation/travel_monitoring/tvt.cfm)
 * [Alabama](https://www.dot.state.al.us/maweb/trafficMonitoring/trafficMonitoring.html)
 * [Arizona](http://www.azdot.gov/planning/DataandAnalysis)
-* [Arlington](http://www.arlingtonva.us/Departments/EnvironmentalServices/dot/traffic/counts/EnvironmentalServicesCounts.aspx)
+* [Arlington](https://www.arlingtonva.us/Government/Projects/22202-Data/Traffic-Transit-Data)
 * [California](http://traffic-counts.dot.ca.gov/)
 * [Chicago](https://data.cityofchicago.org/browse?tags=traffic) or [one specific set](https://data.cityofchicago.org/Transportation/Average-Daily-Traffic-Counts/pfsx-4n4m)
 * [Colorado](http://dtdapps.coloradodot.info/otis)

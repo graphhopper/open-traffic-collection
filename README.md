@@ -26,7 +26,7 @@ Collections of URLs pointing to traffic information portals which contain open d
 * Sweden:
   * [Gothenbury](http://www.statistik.tkgbg.se/)
   * [Various data sets in Datex-II](https://www.trafikverket.se/tjanster/Oppna_data/oppna-data-vi-erbjuder/), registration required
-* [Switzerland](https://www.astra.admin.ch/astra/en/home/dokumentation/verkehrsdaten.html) traffic count only
+* [Switzerland](https://www.astra.admin.ch/astra/de/home/dokumentation/daten-informationsprodukte/verkehrsdaten.html) traffic count only
 * France
   * [Traffic count](https://www.quandl.com/data/INSEE?keyword=traffic)
   * [Datex-II event data](http://diffusion-numerique.info-routiere.gouv.fr/acces-aux-donnees-evenementielles-datex-2-r13.html), requires registration

@@ -108,8 +108,8 @@ Several entries are take from [this stackexchange answer](http://opendata.stacke
 
 ## Misc
 
-* [Historic Road data in EU](http://open-data.europa.eu/en/data/dataset/4t2lYOaJNRsEgDA37hrUgg)
 * [Datex2 Portal](https://www.datex2.eu/), See more information about the UK data [here](http://dalelane.co.uk/blog/?p=1450)
+* [EU - Historic Road data](http://open-data.europa.eu/en/data/dataset/4t2lYOaJNRsEgDA37hrUgg)
 * [MDM-Portal](http://www.mdm-portal.de/) (coverage will be Europe, free to use): Düsseldorf Germany, NRW Germany, ...
 * [NYC Taxi and Limousine Commission](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml): NYC taxi data, dating back to 2009. See also [this blog post](http://toddwschneider.com/posts/analyzing-1-1-billion-nyc-taxi-and-uber-trips-with-a-vengeance/) and this [github repository](https://github.com/toddwschneider/nyc-taxi-data)
 * [Open Traffic Data project](http://www.worldbank.org/en/news/feature/2016/12/19/open-traffic-data-to-revolutionize-transport)

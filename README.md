@@ -64,10 +64,10 @@ Collections of URLs pointing to traffic information portals which contain open d
   * [Various data sets in Datex-II](https://www.trafikverket.se/tjanster/Oppna_data/oppna-data-vi-erbjuder/), registration required
 * [Switzerland](https://www.astra.admin.ch/astra/de/home/dokumentation/daten-informationsprodukte/verkehrsdaten.html) traffic count only
 * UK:
-  * [Entire UK](http://www.dft.gov.uk/traffic-counts/) traffic count only
-  * [Here](https://data.gov.uk/dataset/dft-eng-srn-routes-journey-times) seems to be some traffic flow data.
-  * [Scotland](https://trafficscotland.org/datex/): various Datex-II data sets, registration required.
   * [England](https://www.trafficengland.com/services-info): various Datex-II data sets, registration required.
+  * [Scotland](https://trafficscotland.org/datex/): various Datex-II data sets, registration required.
+  * [Entire UK](http://www.dft.gov.uk/traffic-counts/) traffic count only
+  * [Traffic flow data](https://data.gov.uk/dataset/dft-eng-srn-routes-journey-times)
 
 ## Europe Misc
 

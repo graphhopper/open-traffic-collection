@@ -2,6 +2,9 @@
 
 Collections of URLs pointing to traffic information portals which contain open data or at least data which is free to use
 
+## World
+* [Telraam](https://telraam.net): general documentation over the project [here](https://telraam.net/en/what-is-telraam); [API docs](https://documenter.getpostman.com/view/8210376/TWDRqyaV); limitations and more info [here](https://telraam.zendesk.com/hc/en-us/articles/360026050311-Potential-inaccuracies-with-Telraam).
+
 ## Europe
 
 * Italy:

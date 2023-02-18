@@ -23,6 +23,7 @@ Collections of URLs pointing to traffic information portals which contain open d
   * [Entire UK](http://www.dft.gov.uk/traffic-counts/) traffic count only
   * [Here](https://data.gov.uk/dataset/dft-eng-srn-routes-journey-times) seems to be some traffic flow data.
   * [Scotland](https://trafficscotland.org/datex/): various Datex-II data sets, registration required.
+  * [England](https://www.trafficengland.com/services-info): various Datex-II data sets, registration required.
 * Sweden:
   * [Gothenbury](http://www.statistik.tkgbg.se/)
   * [Various data sets in Datex-II](https://www.trafikverket.se/tjanster/Oppna_data/oppna-data-vi-erbjuder/), registration required

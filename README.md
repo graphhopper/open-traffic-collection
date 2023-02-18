@@ -4,7 +4,6 @@ Collections of URLs pointing to traffic information portals which contain open d
 
 ## Australia
 
- * [New South Wales](http://www.rms.nsw.gov.au/about/access-to-information/access-to-data.html) (looks unfree)
  * [Victoria](http://api.vicroads.vic.gov.au/)
 
 ## Canada

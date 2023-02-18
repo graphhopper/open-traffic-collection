@@ -2,6 +2,15 @@
 
 Collections of URLs pointing to traffic information portals which contain open data or at least data which is free to use
 
+## Australia
+
+ * [New South Wales](http://www.rms.nsw.gov.au/about/access-to-information/access-to-data.html) (looks unfree)
+ * [Victoria](http://api.vicroads.vic.gov.au/)
+
+## Canada
+
+* [British Columbia](http://www.th.gov.bc.ca/trafficData/)
+
 ## Europe
 
 * [Austria](https://contentportal.asfinag.at/data): Various data sets in Datex-II format. Requires registration; some packages are free of charge, others only for a fee. There is also [an open rss feed](https://publiccontent.asfinag.at/rss/feed/de/trafficmessages). See [#25](https://github.com/graphhopper/open-traffic-collection/issues/25).
@@ -69,10 +78,6 @@ Collections of URLs pointing to traffic information portals which contain open d
 * A FOSS Java library for location decoding is available here: [traff-libalertclocation](https://gitlab.com/traffxml/traff-libalertclocation) Decoding an Alert-C location requires the country code, location table number (LTN) and location code.
 * Some sources supply an incorrect LTN; ignore the `alertCLocationTableNumber` elements in the data and use the correct one instead. (The only exception being the Netherlands, see above.)
 
-## Australia
-
- * [New South Wales](http://www.rms.nsw.gov.au/about/access-to-information/access-to-data.html) (looks unfree)
- * [Victoria](http://api.vicroads.vic.gov.au/)
 
 ## USA
 
@@ -100,10 +105,6 @@ Several entries are take from [this stackexchange answer](http://opendata.stacke
 * [Tennessee](http://www.tdot.state.tn.us/projectplanning/adt.asp) (seems to be no longer available)
 * [Washington](http://www.wsdot.wa.gov/mapsdata/travel/annualtrafficreport.htm)
 * [Wisconsin](http://wisconsindot.gov/Pages/projects/data-plan/traf-counts/default.aspx)
- 
-## Canada
-
-* [British Columbia](http://www.th.gov.bc.ca/trafficData/)
 
 
 ## Misc

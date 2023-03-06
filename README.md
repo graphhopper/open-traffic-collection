@@ -58,6 +58,8 @@ Collections of URLs pointing to traffic information portals which contain open d
   * [Traffic events](https://www.gddkia.gov.pl/dane/zima_html/utrdane.xml) in a custom XML format. Georeferencing is based on distance markers along the road; the WGS84 coordinate pair which accompanies the message is only suitable for display and can be significantly off. [traff-gddkia](https://gitlab.com/traffxml/traff-gddkia) is an attempt at a FOSS Java library which parses the data.
   * The [NAP](https://kpd.gddkia.gov.pl/) has Datex-II traffic data; registration is required to get access.
 * [Slovenia](https://www.promet.si/portal/en/etd.aspx): various data sets in Datex-II format, requires registration.
+* Spain
+  * [Madrid](https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=33cb30c367e78410VgnVCM1000000b205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default): Historical and real-time traffic data at city of Madrid's Open data portal
 * Sweden:
   * [Gothenbury](http://www.statistik.tkgbg.se/)
   * [Various data sets in Datex-II](https://www.trafikverket.se/tjanster/Oppna_data/oppna-data-vi-erbjuder/), registration required

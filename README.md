@@ -26,6 +26,7 @@ Collections of URLs pointing to traffic information portals which contain open d
 * France
   * [Traffic count](https://www.quandl.com/data/INSEE?keyword=traffic)
   * [Datex-II event data](http://diffusion-numerique.info-routiere.gouv.fr/acces-aux-donnees-evenementielles-datex-2-r13.html), requires registration
+  * [Paris](https://opendata.paris.fr/explore/dataset/comptages-routiers-permanents/): Road traffic data from permanent counters
 * Germany:
   * [Cologne](http://www.offenedaten-koeln.de/dataset/verkehrskalender-der-stadt-k%C3%B6ln), CC BY 3.0, traffic flow. See this [blog post](https://www.graphhopper.com/blog/2015/04/08/visualize-and-handle-traffic-information-with-graphhopper-in-real-time-for-cologne-germany-koln/)
   * [Düsseldorf traffic interruptions, DL-DE->Zero-2.0](https://opendata.duesseldorf.de/dataset/verkehrsmeldungen-mobilit%C3%A4tsdaten)

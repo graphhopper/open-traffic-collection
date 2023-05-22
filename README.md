@@ -79,6 +79,7 @@ Collections of URLs pointing to traffic information portals which contain open d
 * In most cases the LCL can be obtained free of charge (at least for the countries which rely on Alert-C in their Datex-II feeds) and can be incorporated in applications, devices and information services, but some impose restrictions on redistribution of the raw tables. The [OSM Wiki](https://wiki.openstreetmap.org/wiki/TMC#Available_datasets) has a list of sources where LCLs can be obtained.
 * A FOSS Java library for location decoding is available here: [traff-libalertclocation](https://gitlab.com/traffxml/traff-libalertclocation) Decoding an Alert-C location requires the country code, location table number (LTN) and location code.
 * Some sources supply an incorrect LTN; ignore the `alertCLocationTableNumber` elements in the data and use the correct one instead. (The only exception being the Netherlands, see above.)
+* UNECE Traffic Census (updated every 5 years), showing AADT for segments of E-Roads within the UNECE region [UNECE traffic census 2020](https://unece.org/transport/transport-statistics/traffic-census-2020)
 
 
 ## USA

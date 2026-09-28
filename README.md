@@ -72,7 +72,7 @@ Collections of URLs pointing to traffic information portals which contain open d
   * [Various data sets in Datex-II](https://www.trafikverket.se/tjanster/Oppna_data/oppna-data-vi-erbjuder/), registration required
 * [Switzerland](https://www.astra.admin.ch/astra/de/home/dokumentation/daten-informationsprodukte/verkehrsdaten.html) traffic count only
 * Ukraine: there is no national ITS access point and no Datex-II; road data is published dataset by dataset, mostly under CC BY 4.0. Some `.gov.ua` hosts geo-restrict non-Ukrainian IPs.
-  * [Kyiv road closures and repairs](https://gisserver.kyivcity.gov.ua/mayno/rest/services/KYIV_API/%D0%9F%D0%B5%D1%80%D0%B5%D0%BA%D1%80%D0%B8%D1%82%D1%82%D1%8F/MapServer/0): ArcGIS layer of the closures currently in force in the city, from the Kyiv open-data portal.
+  * [Kyiv road closures and repairs](https://data.gov.ua/dataset/f8ae215b-a8e1-4242-a26f-5df5c909f673): the city administration's dataset of closures currently in force, one GeoJSON resource under CC BY. The city's map server answers plain command-line requests with 403; browser-style requests get the data.
   * [Hazardous road sections](https://data.gov.ua/dataset/7576fcf4-d79f-49af-ab1e-be0671116a57): accident black spots with WGS84 start and end coordinates. These are historical accident concentrations, not live incidents.
 * UK:
   * [England](https://www.trafficengland.com/services-info): various Datex-II data sets, registration required.
